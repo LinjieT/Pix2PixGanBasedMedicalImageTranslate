@@ -1,0 +1,26 @@
+2023-11-15 18:01:19,567 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-15 18:01:19,568 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Configure stats pid to 18140
+2023-11-15 18:01:19,568 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-11-15 18:01:19,568 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/pytorch-CycleGAN-and-pix2pix/wandb/settings
+2023-11-15 18:01:19,568 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-15 18:01:19,568 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-15 18:01:19,569 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test.py', 'program_abspath': '/content/drive/MyDrive/pytorch-CycleGAN-and-pix2pix/test.py', 'program': '/content/drive/MyDrive/pytorch-CycleGAN-and-pix2pix/test.py'}
+2023-11-15 18:01:19,569 INFO    MainThread:18140 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2023-11-15 18:01:19,569 INFO    MainThread:18140 [wandb_init.py:_log_setup():524] Logging user logs to /content/drive/MyDrive/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20231115_180119-b32r8yp0/logs/debug.log
+2023-11-15 18:01:19,569 INFO    MainThread:18140 [wandb_init.py:_log_setup():525] Logging internal logs to /content/drive/MyDrive/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20231115_180119-b32r8yp0/logs/debug-internal.log
+2023-11-15 18:01:19,569 INFO    MainThread:18140 [wandb_init.py:init():564] calling init triggers
+2023-11-15 18:01:19,570 INFO    MainThread:18140 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'dataroot': './datasets/facades', 'name': 'facades_pix2pix', 'gpu_ids': [0], 'checkpoints_dir': './checkpoints', 'model': 'pix2pix', 'input_nc': 3, 'output_nc': 3, 'ngf': 64, 'ndf': 64, 'netD': 'basic', 'netG': 'unet_256', 'n_layers_D': 3, 'norm': 'batch', 'init_type': 'normal', 'init_gain': 0.02, 'no_dropout': False, 'dataset_mode': 'aligned', 'direction': 'BtoA', 'serial_batches': True, 'num_threads': 0, 'batch_size': 1, 'load_size': 256, 'crop_size': 256, 'max_dataset_size': inf, 'preprocess': 'resize_and_crop', 'no_flip': True, 'display_winsize': 256, 'epoch': 'latest', 'load_iter': 0, 'verbose': False, 'suffix': '', 'use_wandb': True, 'wandb_project_name': 'CycleGAN-and-pix2pix', 'results_dir': './results/', 'aspect_ratio': 1.0, 'phase': 'test', 'eval': False, 'num_test': 50, 'isTrain': False, 'display_id': -1}
+2023-11-15 18:01:19,570 INFO    MainThread:18140 [wandb_init.py:init():614] starting backend
+2023-11-15 18:01:19,570 INFO    MainThread:18140 [wandb_init.py:init():618] setting up manager
+2023-11-15 18:01:19,573 INFO    MainThread:18140 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-15 18:01:19,579 INFO    MainThread:18140 [wandb_init.py:init():624] backend started and connected
+2023-11-15 18:01:19,585 INFO    MainThread:18140 [wandb_init.py:init():716] updated telemetry
+2023-11-15 18:01:19,617 INFO    MainThread:18140 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-15 18:01:19,625 INFO    MainThread:18140 [wandb_init.py:init():800] starting run threads in backend
+2023-11-15 18:01:19,740 INFO    MainThread:18140 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-15 18:01:19,740 INFO    MainThread:18140 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-15 18:01:19,740 INFO    MainThread:18140 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-15 18:01:19,740 INFO    MainThread:18140 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-15 18:01:19,742 INFO    MainThread:18140 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-15 18:01:35,404 WARNING MsgRouterThr:18140 [router.py:message_loop():77] message_loop has been closed
